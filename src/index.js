@@ -6,9 +6,6 @@ function BookList() {
   return (
     <section>
       <Book />
-      <Book />
-      <Book />
-      <Book />
     </section>
   );
 }
@@ -22,11 +19,16 @@ const Book = () => {
     </article>
   );
 };
-const Image = () => <h2>image placeholder</h2>;
+const Image = () => (
+  <img
+    src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71CX11nGhWL._SY342_.jpg"
+    alt="Oath and Honor: A Memoir and a Warning"
+  />
+);
 const Title = () => {
-  return <h2>Book Title</h2>;
+  return <h2>Oath and Honor: A Memoir and a Warning</h2>;
 };
-const Author = () => <h4>Author</h4>;
+const Author = () => <h4>Liz Cheney</h4>;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
