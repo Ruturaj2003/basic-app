@@ -4,14 +4,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 const firstBook = {
-  author: 'Jordan Moore',
-  title: 'Interesting Facts For Curious Minds',
-  img: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71CX11nGhWL._SY342_.jpg',
+  author: ' B. Dylan Hollis',
+  title: 'Baking Yesteryear: The Best Recipes from the 1900s to the 1980s',
+  img: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81o-PyNHxbL._SY342_.jpg',
 };
 const secondBook = {
-  author: 'James Clear',
-  title: 'Atomic Habits',
-  img: 'https://images-na.ssl-images-amazon.com/images/I/81wgcld4wxL._AC_UL900_SR900,600_.jpg',
+  author: ' Snoop Dogg ',
+  title: "From Crook to Cook: Platinum Recipes from Tha Boss Dogg's Kitchen",
+  img: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/512TiHNyEIL._SX342_SY445_.jpg',
 };
 
 function BookList() {
