@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -8,11 +8,14 @@ import { Book } from './Book';
 
 function BookList() {
   return (
-    <section className="booklist">
-      {books.map((book) => {
-        return <Book {...book} key={book.id} />;
-      })}
-    </section>
+    <div>
+      <h1 className="heading">Amazon BEST-SELLERS</h1>
+      <section className="booklist">
+        {books.map((book, index) => {
+          return <Book {...book} num={index} key={book.id} />;
+        })}
+      </section>
+    </div>
   );
 }
 
